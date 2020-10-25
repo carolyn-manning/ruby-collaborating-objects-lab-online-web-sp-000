@@ -1,7 +1,7 @@
 class MP3Importer
 
-def initialize(file_path)
-  @file_path
-end 
+def initialize(path)
+  @path = path
+end
 
 end
