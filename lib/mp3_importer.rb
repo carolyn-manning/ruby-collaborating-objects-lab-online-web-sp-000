@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    @path.size
+    @path.split
   end
 
   def import(filename)
