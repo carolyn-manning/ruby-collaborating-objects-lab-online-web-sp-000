@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    @path.split()
+    Dir["/path/to/search/*"]
   end
 
   def import(filename)
