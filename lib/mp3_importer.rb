@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    @path.size/2
+    @path.size
   end
 
 
