@@ -20,4 +20,6 @@ class Song
     song
   end
 
+  Def artist_name= (name)
+
 end
